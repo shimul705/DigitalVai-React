@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Code from './components/Code'
+import Hex from './components/Hex'
 
 // Navigation
 import Nav from './components/Nav'
@@ -16,6 +18,13 @@ function App() {
       <div className=''>
         <Nav></Nav>
         <Header></Header>
+
+        <div className='bg-[#F5F5F5]'>
+          <Hex></Hex>
+        </div>
+
+
+
       </div>
 
     </>
