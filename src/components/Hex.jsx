@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hex = () => {
   return (
-    <div className='m-auto py-24 w-7/12 grid grid-cols-3 md:grid-cols-6 gap-10'>
+    <div className='m-auto py-24 w-7/12 grid grid-cols-2 md:grid-cols-6 md:gap-10 gap-4'>
       
       <div className='body'>
         <div className='hexagon'></div>
