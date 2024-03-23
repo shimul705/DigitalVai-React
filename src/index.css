@@ -158,3 +158,72 @@
     transform: translateX(0);
   }
 }
+
+.body {
+  animation: moveUpDown infinite alternate;
+  animation-duration: calc(2s + var(--delay)); /* Adjust duration as needed */
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(20px); /* Move up */
+  }
+  100% {
+    transform: translateY(0); /* Move down */
+  }
+}
+
+/* Your delay values for synchronization */
+.body:nth-child(1) {
+  --delay: 10s;
+}
+.body:nth-child(2) {
+  --delay: 8s;
+}
+.body:nth-child(3) {
+  --delay: 10s;
+}
+.body:nth-child(4) {
+  --delay: 8s;
+}
+.body:nth-child(5) {
+  --delay: 9s;
+}
+.body:nth-child(6) {
+  --delay: 10s;
+}
+.body:nth-child(7) {
+  --delay: 8s;
+}
+.body:nth-child(8) {
+  --delay: 9s;
+}
+.body:nth-child(9) {
+  --delay: 9.5s;
+}
+.body:nth-child(10) {
+  --delay: 8s;
+}
+.body:nth-child(11) {
+  --delay: 9s;
+}
+.body:nth-child(12) {
+  --delay: 8s;
+}
+
+/* React Spin */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.reactspin {
+  animation: spin infinite 20s linear; /* Adjust duration and timing function as needed */
+}
