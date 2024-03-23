@@ -24,7 +24,7 @@ function App() {
 
         {/* Our Tech Wizards Section  -gradient-to-b from-[#F5F5F5] to*/}
         <div className='bg-[#262262] pt-20 relative'>
-          <div className='w-6/12 m-auto text-center  rounded-2xl p-4 text-white' >
+          <div className='w-11/12 md:w-6/12 m-auto text-center  rounded-2xl p-4 text-white' >
             <h1 className=' text-4xl md:text-5xl font-bold mb-8'>Our Tech Wizards</h1>
 
             <p>We're a software development company driven by a team of tech experts. With specialized skills and experience, we excel in various technology fields. Explore the languages and tools we're fluent in below.</p>
