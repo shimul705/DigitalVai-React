@@ -9,11 +9,11 @@ const Header = () => {
 
       <div className='relative'>
         <div className='hidden md:block'>
-          <div className='text-4xl top-36 left-48  opacity-90 text-[#262262] absolute bottom-0'>
+          <div className='text-4xl top-36 left-48  opacity-90 text-[#5c53dc] absolute bottom-0'>
             <GoDotFill className='prop1' />
           </div>
           <div className='absolute top-44 left-40 h-2 w-16'>
-            <hr className='border-t-4 border-blue-950' />
+            <hr className='border-t-4 border-blue-900' />
           </div>
           <div className='absolute top-48 left-40 h-2 w-16'>
             <hr className='border-t-4 border-blue-950' />
